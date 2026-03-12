@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.sidebar.image("logo.png", width=150)
 
 st.title("📊 Dashboard Comercial - Triunfante")
-st.caption("Análise de vendas e performance comercial")
+st.caption("Desenvolvido por: Guilherme Henrique Torres Lima")
 
 # Carregar dados
 
@@ -169,4 +169,5 @@ st.download_button(
     csv,
     "dados_filtrados.csv",
     "text/csv"
+
 )
